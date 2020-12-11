@@ -3,8 +3,9 @@
 // Reverse the order of two provided SVGStringList.apply
 
 // Examples
-// "Abraham Lincoln" -> "Lincoln Abraham"
-// "Hank Aaron" -> "Aaron Hank"
+// "Abraham Lincoln" should be -> "Lincoln Abraham"
+// or 
+// "Hank Aaron" should be -> "Aaron Hank"
 
 // Approach 1 - //Using Built in Functions
 
