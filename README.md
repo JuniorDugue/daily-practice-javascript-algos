@@ -1,10 +1,8 @@
-# daily-practice-javascript-algos
+# JavaScript Data Structures & Algorthims 
 
-1) name swap 
-2) remove odd numbers from array
-3) repeat a string
-4) find the longest string
-5) filter strings from array
-6) alphabetize string
-7) reverse a string
-8) palindrome
+---
+### This repo is used to journal my growth as a developer with JavaScript
+- [Algorithms](js/README.md)
+- [Data Structures](data-structures/README.md)
+- [Interview Prep](interview-prep/README.md)
+---
