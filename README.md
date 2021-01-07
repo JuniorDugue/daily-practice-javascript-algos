@@ -7,6 +7,6 @@
 - [Algorithms](js/README.md)
 - [Data Structures](data-structures/README.md)
 - [Interview Prep](interview-prep/README.md)
-- [React Interview](interview-prep/reactapp)
+<!-- - [React Interview](interview-prep/reactapp) -->
 
 ---
