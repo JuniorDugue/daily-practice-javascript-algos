@@ -4,6 +4,7 @@
 
 #### table of contents
 
+- [IIFE](#IIFE)
 - [Closures](#closure)
 - [This Keyword](#this-keyword)
 - [Hoisting](#hoisting)
@@ -13,6 +14,23 @@
 - [Use Strict](#use-strict)
 - [Curry Function](#curry-function)
 - [Counter Function](#counter-function)
+
+---
+
+## [IIFE](IIFE.js)
+
+![IIFE](./assets/iife.jpg)
+- IIFE = Immedidately Invoked Function Expression
+- Which is a function that is executed right after it is created e.g.
+![](./assets/iife2.jpg)
+
+another example with jquery
+
+![](./assets/iife3.jpg)
+
+and
+
+![](./assets/iife4.jpg)
 
 ---
 
