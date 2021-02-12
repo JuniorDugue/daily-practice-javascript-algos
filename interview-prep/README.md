@@ -14,15 +14,16 @@
 - [Use Strict](#use-strict)
 - [Curry Function](#curry-function)
 - [Counter Function](#counter-function)
+- [Misc Questions](#misc-questions)
 
 ---
 
 ## [IIFE](IIFE.js)
 
-![IIFE](./assets/iife.jpg)
+### What is an IIFE and why are they used?
 - IIFE = Immedidately Invoked Function Expression
 - Which is a function that is executed right after it is created e.g.
-![](./assets/iife2.jpg)
+  ![](./assets/iife2.jpg)
 
 another example with jquery
 
@@ -36,9 +37,20 @@ and
 
 ## [Closure](closure.js)
 
-![closure](./assets/closure.png)
+### What is an closure?
 
-- here's a code example of closures
+- A closure is an inner function that has access to the scope of an enclosing function
+
+- Closures has access to variables in 3 separate scopes: 
+1. variables in its own scope
+2. variables in the scope of the outer function
+3. variables in the global scope
+
+The closure also has access to:
+1. its own parameters
+2. parameters of outer function(s)
+
+here's a code example of closures
   ![example of closure](./assets/closure1.png)
   ![closure](./assets/closure.jpg)
 
@@ -82,5 +94,48 @@ and
 ---
 
 ## Counter Function
+
+---
+
+## Misc Questions
+
+<details>
+<summary><strong>How do we add JS onto a page?</strong></summary>
+  <p>Generally you can place</p>
+  <xmp><script type="text/javascript"></script></xmp>
+  <p>if the script is small in the head title or bottom of page, or if your script is large</p>
+  <xmp><script type="text/javascript" src="jsfile.js"></script></xmp>
+  <p>Another alternative is via script tags e.g.<xmp><script>js inside</script></xmp></p>
+</details>
+
+<details>
+<summary><strong>What are the types used in JS?</strong></summary>
+  <p>Strings, Numbers, Booleans, Functions, Objects, Null, and Undefined</p>
+</details>
+
+<details>
+<summary><strong>What are the boolean operators supported by JS?</strong></summary>
+  <p>And Operator: &&</p>
+  <p>Or Opperator: ||</p>
+  <p>Not Operator: !</p>
+</details>
+
+<details>
+<summary><strong>Short The difference between "==" and "==="?</strong></summary>
+  <p>"==" checks equality only</p>
+  <p>"===" checks for equality as well as the type</p>
+</details>
+
+<details>
+<summary><strong>How to access the value of a textbox using JS?</strong></summary>
+  <xmp>
+    <body>
+      Full name: <input type="text" id="txtFullName" name="firstName" value="Jr">
+    </body>
+    <script>
+      let name = document.getElementById('txtFullName').value; alert(name);
+    </script>
+  </xmp>
+</details>
 
 ---
