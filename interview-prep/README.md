@@ -128,14 +128,64 @@ here's a code example of closures
 
 <details>
 <summary><strong>How to access the value of a textbox using JS?</strong></summary>
-  <xmp>
-    <body>
-      Full name: <input type="text" id="txtFullName" name="firstName" value="Jr">
-    </body>
+  <xmp><body>
+    Full name: <input type="text" id="txtFullName" name="firstName" value="Jr">
     <script>
       let name = document.getElementById('txtFullName').value; alert(name);
     </script>
-  </xmp>
+  </body></xmp>
+
+  or the old way:
+  <pre><script>
+  document.forms[0].myButton
+  let name = document.forms[0].firstName.value;
+  alert(name);
+  </script></pre>
+</details>
+
+<details>
+<summary><strong>How will you get the checkbox status whether its checked or not?</strong></summary>
+ <pre>
+  let status = document.getElementById("checkbox").checked;
+  alert(status);
+  //will return true or false
+ </pre>
+</details>
+
+<details>
+<summary><strong>How to create arrays</strong></summary>
+ <p>There are two ways</p>
+ <p>1st way is to declare an array e.g.</p>
+  <pre>
+    let names = new Array();
+    Add Elements in Array:
+    names[0] = "Jr";
+    names[1] = "Junior";
+    names[2] = "J"
+  </pre>
+ <p>The other way to create arrays</p>
+  <pre>
+    let names = new Array("Jr", "junior", "J");
+  </pre>
+</details>
+
+<details>
+<summary><strong>If an array with name as "names" contain 3 elements, how will you print the 3rd element?</strong></summary>
+  <pre>
+    document.write(names[2]);
+  </pre>
+</details>
+
+<details>
+<summary><strong>How to submit a form using JS</strong></summary>
+  <pre>
+    document.forms[0].submit()
+  </pre>
+</details>
+
+<details>
+<summary><strong>What does isNaN function do?</strong></summary>
+  <p>it returns true if the arg is not a number</p>
 </details>
 
 ---
